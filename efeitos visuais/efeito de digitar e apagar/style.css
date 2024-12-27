@@ -15,7 +15,7 @@ body {
     align-items: flex-start;
 }
 
-#linha1, #linha2 {
+#linha1, #linha2, #linha2-dinamico {
     font-size: 24px;
     white-space: nowrap;
     overflow: hidden;
@@ -25,6 +25,7 @@ body {
     color: #00ff00;
     margin-right: 10px;
     transition: color 0.3s;
+    font-size: 25px;
 }
 
 .blinking-cursor {
